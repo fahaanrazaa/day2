@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Login
+  form(role='form', method='post')
+       .form-group
+         label(for='username') Username
+         input.form-control(type='text',placeholder='enter a username')
+       .form-group
+         label(for='password') Password
+         input.form-control(type='password',placeholder='enter a password')
+       
